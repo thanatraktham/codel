@@ -1,0 +1,56 @@
+name: sopet-backend
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2021.10.26=hecd8cb5_2
+  - certifi=2021.10.8=py38hecd8cb5_2
+  - libcxx=12.0.0=h2f01273_0
+  - libffi=3.3=hb1e8313_2
+  - ncurses=6.3=hca72f7f_2
+  - openssl=1.1.1m=hca72f7f_0
+  - pip=21.2.4=py38hecd8cb5_0
+  - python=3.8.12=h88f2d9e_0
+  - readline=8.1.2=hca72f7f_1
+  - setuptools=58.0.4=py38hecd8cb5_0
+  - sqlite=3.37.2=h707629a_0
+  - tk=8.6.11=h7bc2e8c_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h4dc903c_4
+  - pip:
+    - anyio==3.5.0
+    - asgiref==3.5.0
+    - bcrypt==3.2.0
+    - cffi==1.15.0
+    - click==8.0.3
+    - cryptography==36.0.1
+    - ecdsa==0.17.0
+    - fastapi==0.73.0
+    - greenlet==1.1.2
+    - h11==0.13.0
+    - httptools==0.3.0
+    - idna==3.3
+    - mysql==0.0.3
+    - mysql-connector-python==8.0.28
+    - mysqlclient==2.1.0
+    - passlib==1.7.4
+    - protobuf==3.19.4
+    - pyasn1==0.4.8
+    - pycparser==2.21
+    - pydantic==1.9.0
+    - pymysql==1.0.2
+    - pyodbc==4.0.32
+    - python-dotenv==0.19.2
+    - python-jose==3.3.0
+    - pyyaml==6.0
+    - rsa==4.8
+    - six==1.16.0
+    - sniffio==1.2.0
+    - sqlalchemy==1.4.31
+    - starlette==0.17.1
+    - typing-extensions==4.0.1
+    - uvicorn==0.17.4
+    - uvloop==0.16.0
+    - watchgod==0.7
+    - websockets==10.1
+prefix: /Users/napatcheetanom/opt/anaconda3/envs/sopet-backend
